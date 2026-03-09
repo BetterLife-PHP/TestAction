@@ -1,0 +1,17 @@
+name: Hacker Alert
+
+on: [push] # This triggers whenever you push code
+
+jobs:
+  shout-it:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initialize Hack
+        run: |
+          echo "Accessing mainframe..."
+          sleep 1
+          echo "Bypassing firewall..."
+          sleep 1
+          echo "--------------------------"
+          echo "😎 I'M THE HACKER 😎"
+          echo "--------------------------"
