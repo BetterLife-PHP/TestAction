@@ -1,0 +1,19 @@
+name: 'Hacker Alert'
+description: 'A fun GitHub Action that prints a hacker alert message to the workflow log.'
+branding:
+  icon: 'alert-triangle'
+  color: 'red'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Initialize Hack
+      shell: bash
+      run: |
+        echo "Accessing mainframe..."
+        sleep 1
+        echo "Bypassing firewall..."
+        sleep 1
+        echo "--------------------------"
+        echo "😎 I'M THE HACKER 😎"
+        echo "--------------------------"
