@@ -1,0 +1,13 @@
+name: "BetterLife Action"
+description: "Test Action for ram-sec.com"
+author: "BetterLife-PHP"
+branding:
+  icon: "activity"
+  color: "blue"
+inputs:
+  example:
+    description: "Example input"
+    required: false
+runs:
+  using: "node20"
+  main: "dist/index.js"
