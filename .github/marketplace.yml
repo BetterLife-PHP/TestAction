@@ -1,0 +1,10 @@
+name: "BetterLife Action"
+description: "Test Action for ram-sec.com"
+categories:
+  - utilities
+branding:
+  icon: "activity"
+  color: "blue"
+inputs:
+  example:
+    description: "Example input"
